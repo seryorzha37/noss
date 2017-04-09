@@ -1,0 +1,25 @@
+{
+  "name": "ness",
+  "version": "0.0.1",
+  "description": "simple array",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indatawetrust/ness.git"
+  },
+  "keywords": [
+    "array"
+  ],
+  "author": "indatawetrust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indatawetrust/ness/issues"
+  },
+  "homepage": "https://github.com/indatawetrust/ness#readme",
+  "devDependencies": {
+    "ava": "^0.19.0"
+  }
+}
