@@ -18,6 +18,8 @@ class Noss {
         this.arr.push(p)
         
         this.onFunc == undefined || this.onFunc('add', this.arr, p)
+        
+        return back
       },
       before: ((i, p) => {
         this.arr.splice(i, 0, p)
@@ -49,4 +51,8 @@ class Noss {
 
 }
 
-export default Noss
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+  module.exports = Noss
+} else {
+  window.Noss = Noss
+}

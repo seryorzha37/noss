@@ -1,6 +1,6 @@
 {
-  "name": "ness",
-  "version": "0.0.1",
+  "name": "noss",
+  "version": "0.0.2",
   "description": "simple array",
   "main": "index.js",
   "scripts": {
