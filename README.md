@@ -1,3 +1,3 @@
-[![Travis Build Status](https://img.shields.io/travis/indatawetrust/ness.svg)](https://travis-ci.org/indatawetrust/ness)
+[![Travis Build Status](https://img.shields.io/travis/indatawetrust/noss.svg)](https://travis-ci.org/indatawetrust/noss)
 
-#### ness
+#### noss

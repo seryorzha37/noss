@@ -11,8 +11,8 @@ test('test', t => {
 
   const c = b.after(3)
 
-  c.add(4) 
-  
-  t.deepEqual(n.arr, [2, 3, 1, 4])
+  b.remove()
+ 
+  t.deepEqual(n.arr, [3, 1])
 
 })

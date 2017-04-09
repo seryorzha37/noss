@@ -1,4 +1,4 @@
-class Ness {
+class Noss {
   
   constructor () {
     this.arr = []
@@ -32,12 +32,21 @@ class Ness {
         this.onFunc == undefined || this.onFunc('after', this.arr, p)
 
         return back
+      }).bind(null, this.arr.length-1),
+      remove: ((i) => {
+        const p = this.arr[i]
+
+        this.arr.splice(i, 1)
+        
+        this.onFunc == undefined || this.onFunc('remove', this.arr, p)
+
+        return back
       }).bind(null, this.arr.length-1)
     }
     
     return back
   }
-  
+
 }
 
-export default Ness
+export default Noss
